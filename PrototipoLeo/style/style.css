@@ -96,7 +96,7 @@
                     padding-top: 100px;
                     position: relative;
                     vertical-align: middle;
-                    /* height: 419px; */
+                    height: 419px;
                 }
                 
                 .imagem {
@@ -120,6 +120,11 @@
                 
                 .texto {
                     position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
                 }
                 
                 h4 {
@@ -140,6 +145,29 @@
                     text-align: center;
                     font-family: "Lemon-Regular";
                     font-size: 44px;
+                }
+                
+                button {
+                    font-size: 20px;
+                    color: #00ABEB;
+                    padding: 10px;
+                    width: 150px;
+                    border-radius: 34px;
+                    border: none;
+                    margin-top: 50px;
+                }
+                
+                .opcao {}
+                
+                h2 {
+                    color: #00ABEB;
+                    padding: 69px;
+                    height: 2188px;
+                }
+                
+                p {
+                    color: #00ABEB;
+                    height: 200px;
                 }
                 
                 footer {
